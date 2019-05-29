@@ -1,10 +1,10 @@
 package JavaBasics;
 
-public class Singleton {
+ class Singleton {
 	
 	private static Singleton getSingle;
 	
-	private Singleton getInstance()
+	public static Singleton getInstance()
 	{
 		if(getSingle==null)
 		{
@@ -21,4 +21,12 @@ public class Singleton {
 		str="Hello I am a string part of Singleton class";
 	}
 
+}
+
+public class SingletonDemo{
+	public static void main(String[] args) {
+		Singleton X=Singleton.getInstance();
+		
+		System.out.println(X.str);
+	}
 }
