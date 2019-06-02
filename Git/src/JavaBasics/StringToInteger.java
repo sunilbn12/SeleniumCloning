@@ -16,6 +16,8 @@ public class StringToInteger {
 		System.out.println(Integer.toString(i).length());
 		
 		System.out.println(Integer.toString(i).indexOf("0"));
+		
+		
 	}
 
 }
