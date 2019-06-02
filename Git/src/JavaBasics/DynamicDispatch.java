@@ -42,6 +42,7 @@ public class DynamicDispatch {
 		Fruit f=new Fruit();
 		Execution.start(f);
 		Execution.start(new Apple());
+		Execution.start("S");
 	}
 
 }
