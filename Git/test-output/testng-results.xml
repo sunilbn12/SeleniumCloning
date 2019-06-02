@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25" started-at="2019-06-02T06:46:05Z" finished-at="2019-06-02T06:46:05Z">
+  <suite name="Default suite" duration-ms="37" started-at="2019-06-02T07:36:25Z" finished-at="2019-06-02T07:36:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25" started-at="2019-06-02T06:46:05Z" finished-at="2019-06-02T06:46:05Z">
-      <class name="JavaBasics.StringToInteger">
-        <test-method status="PASS" signature="StrToInt()[pri:0, instance:JavaBasics.StringToInteger@4ec6a292]" name="StrToInt" duration-ms="11" started-at="2019-06-02T12:16:05Z" finished-at="2019-06-02T12:16:05Z">
+    <test name="Default test" duration-ms="37" started-at="2019-06-02T07:36:25Z" finished-at="2019-06-02T07:36:25Z">
+      <class name="collections.HashMapToArray">
+        <test-method status="PASS" signature="HM2Array()[pri:0, instance:collections.HashMapToArray@4ec6a292]" name="HM2Array" duration-ms="17" started-at="2019-06-02T13:06:25Z" finished-at="2019-06-02T13:06:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StrToInt -->
-      </class> <!-- JavaBasics.StringToInteger -->
+        </test-method> <!-- HM2Array -->
+      </class> <!-- collections.HashMapToArray -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
