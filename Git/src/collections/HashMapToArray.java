@@ -3,7 +3,6 @@ package collections;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import org.apache.poi.poifs.filesystem.Entry;
 import org.testng.annotations.Test;
 
 public class HashMapToArray {
@@ -33,8 +32,8 @@ public class HashMapToArray {
         ArrayList<String> values=new ArrayList<>(studentPerformanceMap.values());
         System.out.println("prinitng values -------------->"+values);
         
-        //Printing keysets and values together
-        ArrayList<Entry> listOfEntry= new ArrayList<Entry>();
+       
+        
 	}
 
 }
